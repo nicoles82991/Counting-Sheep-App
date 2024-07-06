@@ -1,0 +1,61 @@
+body {
+    background-image: url("sheep.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgb(102, 204, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #003366;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #005580;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #66ccff;
+    color: #005580;
+}
+
+#save-btn {
+    background: #cc99ff;
+    color: 
+}
+
+#save-el {
+    color: #006699;
+}
